@@ -1,0 +1,17 @@
+Lvl-1
+Basic Databasw with collection of username and password valies, however if 
+anyone gets access to our database then he can peek into our details.
+So,we use level-2 encryption to jumble the password or any desired fields.
+eg- password dog witten as cmf
+
+Lvl-2
+Using mongoose encryption module to provide basice level encryption and authentication
+via secret key.
+
+
+Lvl-3
+-> Environment Variables, .GITIGNORE , .env
+-> import .env.config() at the very beggining of the file
+-> Adding .env folder to import secret code rather than keeping it in the app.js
+   However, seccret code can now be accessed from the .env file.so we use
+   .GITIGNORE to avoid loading up .env and nodemodules.
